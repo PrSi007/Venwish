@@ -1,0 +1,68 @@
+ids:
+name: text_name,
+desc: text_desc,
+map: text_map,
+cont: text_cont
+addBtn: add_button
+
+add firebase code in index_html
+
+var db = firebase.firestore();
+
+go to index_html and add on click function
+
+function storedata()
+{
+		var inputname = document.getElementById("text_name").value;
+		var inputdesc = document.getElementById("text_desc").value;
+		var inputmap = document.getElementById("text_map").value;
+		var inputcont = document.getElementById("text_cont").value;
+
+
+		db.collection("MakeAWish").doc().set({
+    			name: inputname,
+  		  	desc: inputdesc,
+			map: inputmap,
+ 		   	cont: inputcont
+		})
+		.then(() => {
+    			console.log("Document successfully written!");
+		})
+		.catch((error) => {
+			console.error("Error writing document: ", error);
+		});
+}
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+like button:
+db.collection("MakeAWish").doc().set({
+    			name: inputname,
+  		  	desc: inputdesc,
+			map: inputmap,
+ 		   	cont: inputcont
+			like : 0
+		})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

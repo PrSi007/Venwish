@@ -1,0 +1,11 @@
+
+
+db.collection("MakeAWish").get().then((querySnapshot) => {
+    querySnapshot.forEach((doc) => {
+        // doc.data() is never undefined for query doc snapshots
+        doc.data().name
+	doc.data().desc
+	doc.data().map
+	doc.data().cont
+    });
+});

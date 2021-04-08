@@ -1,0 +1,348 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+Button:focus { 
+    outline:none 
+}
+
+.vh100 {
+    height: 100vh;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.para {
+    text-align: justify;
+}
+
+.page {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+.card {
+    background-color: #eee;
+    border: 0px;
+    /* font-weight: 200; */
+}
+
+
+
+
+
+
+/* ############ */
+/* ## NAVBAR ## */
+/* ############ */
+.navbar {
+    background-color: #002e2e !important;
+}
+
+.nav-item:hover {
+    cursor: pointer;
+}
+
+.avatars {
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    z-index: 1;
+}
+
+.avatar {
+    height: 50px;
+}
+
+
+
+
+
+
+/* ############## */
+/* ## CAROUSEL ## */
+/* ############## */
+
+.carouselImg {
+    height: 70vh;
+    object-fit: cover;
+    overflow-y: hidden;
+    background-repeat: no-repeat;
+    background-position: center;        
+}
+
+.heroCarouselBtn {
+    background-color: #00808033;
+    color: #fff;
+    font-weight: 200;
+    padding: 10px;
+    border: 0;
+}
+
+.heroCarouselBtn:hover{
+    cursor: pointer;
+    background-color: #00808066;
+}
+
+.heroTitle {
+    text-align: left;
+}
+
+.product {
+    color: #008080;
+}
+
+.tagline, .product {
+    background-color: #00000055;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+/* ########### */
+/* ## LINKS ## */
+/* ########### */
+.linkTo {
+    background-color: #008080;
+    color: #fff;
+    border: 0px;
+    height: 150px;
+    width: 90%;
+    position: relative;
+    top: -30px;
+    font-size: 20px;
+}
+
+.linkTo:hover {
+    background-color: #005a5a;
+    cursor: pointer;
+}
+
+.linkTo a {
+    color: #fff;
+}
+
+.linkToActive {
+    background-color: #d6c800;
+}
+
+.linkToActive:hover {
+    background-color: #d6c800;
+}
+
+
+
+
+
+
+
+
+/* ########### */
+/* ## ABOUT ## */
+/* ########### */
+.aboutImg {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+/* ############## */
+/* ## PARALLAX ## */
+/* ############## */
+
+.bgBlueImg {
+  color: white;
+  background-image: url(./Images/carousel2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  padding-top: 25vh;
+}
+
+.parallaxBtn {
+    background-color: #00808033;
+    border: 0;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.parallaxBtn:hover {
+    background-color: #00808066;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/* ################## */
+/* ## TESTIMONIALS ## */
+/* ################## */
+
+.news-heading {
+    padding: 5px 20px;
+    border-radius: 30px;
+    background-color: #00808066;
+    color:#fff;
+    text-align: center;
+}
+
+#news-slider {
+    overflow: hidden;
+}
+
+#news-slider .card {
+    margin-left: 30px;
+    text-align: justify;
+    height: 150px;
+    overflow: hidden;
+    border: 0;
+    box-shadow: 10px 0px 10px -12px #1018201e;
+    background-color: #00000000;
+    font-weight: 300;
+}
+
+.bgBlueImgPage {
+    padding-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ############ */
+/* ## FOOTER ## */
+/* ############ */
+
+footer {
+    width:100%;
+    padding: 3rem;
+    background-color: #002e2e;
+}
+
+.social-media a {
+    text-decoration: none;
+    color:#ddd;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.social-media a:hover {
+    text-decoration: none;
+    color:#fff;
+    background-color: #006e6e96;
+    border-radius: 20%;
+    padding: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    line-height: 2rem;
+    color: #ccc;
+    font-weight: 200;
+    font-size: 0.9rem;
+}
+
+.footer-links a:hover {
+    color: #fff;
+}
+
+.footer-links h5 {
+    color: #ddd;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.footer_img {
+    margin-top: 50px;
+    width :100px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.descrp {
+    text-align: justify; 
+    color: #ddd;
+    font-weight: 200;
+    padding-right: 40px;
+}
+
+
+
+
+
+/* ############ */
+/* ## WISHES ## */
+/* ############ */
+
+.cardBtn {
+    background-color: #008a8a22;
+    border: 0;
+    padding: 5px 10px;
+    margin-right: 10px;
+    color: #000;
+}
+
+.cardBtn:hover {
+    cursor: pointer;
+    background-color: #008a8a44;
+    color: #000;
+}
+
+.cardBtn:active {
+    color: #000;
+}
+
+.fa-heart {
+    color: #be0000;
+}
+
+.fa-heart:hover{
+    cursor: pointer;
+}
+
+.addCardPage {
+    background-color: #008080cc;
+    margin-top: 50px;
+    padding: 30px 60px;
+    color: #fff;
+}
+
+.add:hover {
+    cursor: pointer;
+}
+
+.addBtn {
+    background-color: #00000000;
+    border: 0;
+    color: #fff;
+}
